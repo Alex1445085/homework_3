@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -70,5 +68,19 @@ public class Main {
         System.out.println((differenceWWeight * 1000 / weightOut250) + " дней.");
         System.out.print("При похудании на 500г в день на приведение веса в норму необходимо ");
         System.out.println(differenceWWeight * 1000 / weightOut500 + " дней.");
+        System.out.println();
+        // 8.
+        float salaryMary = 67760f;
+        float salaryDen = 83690f;
+        float salaryKris = 76230f;
+        float nextSalaryMary = (salaryMary + (salaryMary / 10));
+        float nextSalaryDen = salaryDen + (salaryDen / 10);
+        float nextSalaryKris = salaryKris + (salaryKris / 10);
+        System.out.print("Маша теперь получает " + nextSalaryMary + " рублей. Годовой доход вырос на ");
+        System.out.println(((nextSalaryMary - salaryMary) * 12) + " рублей.");
+        System.out.print("Денис теперь получает " + nextSalaryDen + " рублей. Годовой доход вырос на ");
+        System.out.println(((nextSalaryDen - salaryDen) * 12) + " рублей.");
+        System.out.print("Кристина теперь получает " + nextSalaryKris + " рублей. Годовой доход вырос на ");
+        System.out.println(((nextSalaryKris - salaryKris) * 12) + " рублей.");
     }
 }
