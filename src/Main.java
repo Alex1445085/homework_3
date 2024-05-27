@@ -16,5 +16,6 @@ public class Main {
         System.out.println("Значение переменной 'varLong' с типом 'long' равно " + varLong);
         System.out.println("Значение переменной 'varFloat' с типом 'float' равно " + varFloat);
         System.out.println("Значение переменной 'varDouble' с типом 'double' равно " + varDouble);
+
     }
 }
