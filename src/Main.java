@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,5 +26,11 @@ public class Main {
         varShort = -159;
         varShort = 27897;
         varByte = 67;
+        // 3.
+        short teachLudPavl, teachAnnSerg, teachEkaAndr;
+        teachLudPavl = 23;
+        teachAnnSerg = 27;
+        teachEkaAndr = 30;
+        System.out.println("На каждого ученика рассчитано " + (480 / (teachAnnSerg + teachEkaAndr + teachLudPavl)) + " листов бумаги.");
     }
 }
