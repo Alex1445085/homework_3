@@ -32,5 +32,15 @@ public class Main {
         teachAnnSerg = 27;
         teachEkaAndr = 30;
         System.out.println("На каждого ученика рассчитано " + (480 / (teachAnnSerg + teachEkaAndr + teachLudPavl)) + " листов бумаги.");
+        // 4.
+        int efficiency2Min = 16;
+        int i = efficiency2Min * 10;
+        System.out.println("За 20 минут машина произвела " + i + " штук бутылок.");
+        i = i * 3 * 24;
+        System.out.println("За сутки машина произвела " + i + " штук бутылок.");
+        i = i * 3;
+        System.out.println("За трое суток машина произвела " + i + " штук бутылок.");
+        i = i * 10;
+        System.out.println("Если в месяце 30 дней, то за месяц машина произвела " + i + " штук бутылок.");
     }
 }
