@@ -47,7 +47,7 @@ public class Main {
         int totalClasses = 120 / (braunPaintPerClass + whitePaintPerClass);
         System.out.print("В школе, где " + totalClasses + " классов нужно ");
         System.out.print((totalClasses * whitePaintPerClass) + " банок белой краски и ");
-        System.out.println((totalClasses * braunPaintPerClass) + " банок коричневой краски");
+        System.out.println((totalClasses * braunPaintPerClass) + " банок коричневой краски.");
 
 
     }
