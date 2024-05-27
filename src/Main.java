@@ -42,5 +42,13 @@ public class Main {
         System.out.println("За трое суток машина произвела " + i + " штук бутылок.");
         i = i * 10;
         System.out.println("Если в месяце 30 дней, то за месяц машина произвела " + i + " штук бутылок.");
+        // 5.
+        int braunPaintPerClass = 4, whitePaintPerClass = 2;
+        int totalClasses = 120 / (braunPaintPerClass + whitePaintPerClass);
+        System.out.print("В школе, где " + totalClasses + " классов нужно ");
+        System.out.print((totalClasses * whitePaintPerClass) + " банок белой краски и ");
+        System.out.println((totalClasses * braunPaintPerClass) + " банок коричневой краски");
+
+
     }
 }
