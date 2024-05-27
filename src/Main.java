@@ -12,20 +12,20 @@ public class Main {
         float varFloat = 12.88765f;
         double varDouble = 3.141592652;
         System.out.println("Значение переменной 'varByte' с типом 'byte' равно " + varByte);
-        System.out.println("Значение переменной 'varChar' с типом 'char' равно " + varShort);
+        System.out.println("Значение переменной 'varShort' с типом 'short' равно " + varShort);
         System.out.println("Значение переменной 'varInt' с типом 'int' равно " + varInt);
         System.out.println("Значение переменной 'varLong' с типом 'long' равно " + varLong);
         System.out.println("Значение переменной 'varFloat' с типом 'float' равно " + varFloat);
         System.out.println("Значение переменной 'varDouble' с типом 'double' равно " + varDouble);
         System.out.println();
         // 2.
-        varFloat = 27.12f;
-        varLong = 987678965549L;
-        varFloat = 2.786f;
-        varShort = 569;
-        varShort = -159;
-        varShort = 27897;
-        varByte = 67;
+        float varFloat1 = 27.12f;
+        long varLong1 = 987678965549L;
+        float varFloat2 = 2.786f;
+        short varShort1 = 569;
+        int varInt1 = -159;
+        long varLong2 = 27897;
+        byte varByte1 = 67;
         // 3.
         short teachLudPavl, teachAnnSerg, teachEkaAndr;
         teachLudPavl = 23;
@@ -35,14 +35,14 @@ public class Main {
         System.out.println();
         // 4.
         int efficiency2Min = 16;
-        int i = efficiency2Min * 10;
-        System.out.println("За 20 минут машина произвела " + i + " штук бутылок.");
-        i = i * 3 * 24;
-        System.out.println("За сутки машина произвела " + i + " штук бутылок.");
-        i = i * 3;
-        System.out.println("За трое суток машина произвела " + i + " штук бутылок.");
-        i = i * 10;
-        System.out.println("Если в месяце 30 дней, то за месяц машина произвела " + i + " штук бутылок.");
+        int efficiency20Min = efficiency2Min * 10;
+        System.out.println("За 20 минут машина произвела " + efficiency20Min + " штук бутылок.");
+        int efficiency24Hour = efficiency2Min * 30 * 24;
+        System.out.println("За сутки машина произвела " + efficiency24Hour + " штук бутылок.");
+        int efficiency3Day = efficiency2Min * 30 * 24 * 3;
+        System.out.println("За трое суток машина произвела " + efficiency3Day + " штук бутылок.");
+        int efficiency1Month = efficiency2Min * 30 * 24 * 30;
+        System.out.println("Если в месяце 30 дней, то за месяц машина произвела " + efficiency1Month + " штук бутылок.");
         System.out.println();
         // 5.
         int braunPaintPerClass = 4, whitePaintPerClass = 2;
@@ -82,5 +82,6 @@ public class Main {
         System.out.println(((nextSalaryDen - salaryDen) * 12) + " рублей.");
         System.out.print("Кристина теперь получает " + nextSalaryKris + " рублей. Годовой доход вырос на ");
         System.out.println(((nextSalaryKris - salaryKris) * 12) + " рублей.");
+
     }
 }
