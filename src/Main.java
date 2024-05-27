@@ -63,5 +63,12 @@ public class Main {
         float totalWeightKilo = 0.000f;
         totalWeightKilo = totalWeight / 1000;
         System.out.println("В килограммах это будет " + totalWeightKilo + " кг.");
+        System.out.println();
+        // 7.
+        int differenceWWeight = 7, weightOut250 = 250, weightOut500 = 500;
+        System.out.print("При похудании на 250г в день на приведение веса в норму необходимо ");
+        System.out.println((differenceWWeight * 1000 / weightOut250) + " дней.");
+        System.out.print("При похудании на 500г в день на приведение веса в норму необходимо ");
+        System.out.println(differenceWWeight * 1000 / weightOut500 + " дней.");
     }
 }
