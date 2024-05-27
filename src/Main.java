@@ -16,6 +16,13 @@ public class Main {
         System.out.println("Значение переменной 'varLong' с типом 'long' равно " + varLong);
         System.out.println("Значение переменной 'varFloat' с типом 'float' равно " + varFloat);
         System.out.println("Значение переменной 'varDouble' с типом 'double' равно " + varDouble);
-
+        // 2.
+        varFloat = 27.12f;
+        varLong = 987678965549L;
+        varFloat = 2.786f;
+        varShort = 569;
+        varShort = -159;
+        varShort = 27897;
+        varByte = 67;
     }
 }
